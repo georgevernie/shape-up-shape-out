@@ -1,0 +1,110 @@
+body{
+    background: rgb(238, 246, 215);
+    -webkit-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    -moz-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+}
+label {
+    width: 12rem;
+    height: 2.5rem;
+    margin-left: 2.0rem;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+input{
+    margin-right: 1.0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.shape-info-text{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 2rem;
+    width: 20rem;
+    background: rgb(70, 66, 66);
+    color:whitesmoke;
+}
+
+#main-shape-button-menu{
+    margin-left: auto;
+    margin-right: auto;
+    width:80rem;
+    -webkit-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    -moz-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+}
+
+#main-shape-button-menu-title{
+    color:black;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#parent-flex-box {
+    display: flex; /* or inline-flex */
+  }
+
+#shape-canvas{
+    -webkit-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    -moz-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 4rem;
+    background-color: rgb(240, 240, 240);
+    height: 600px;
+    width: 600px;
+    
+}
+
+#side-shape-info-panel{
+    -webkit-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    -moz-box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    box-shadow: inset 5px 5px 40px -5px rgba(0,0,0,0.99);
+    width:34rem;
+    height:auto;
+    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline-block;
+    background: rgb(244, 255, 149);
+}
+
+#square{
+    background:red;
+    opacity:0.5;
+}
+
+#rectangle{
+    background: lime;
+    opacity:1.0;
+}
+
+#circle{
+    background: purple;
+    opacity:0.75;
+}
+#triangle{
+    width: 0;
+    height: 0;
+    opacity:0.60%;
+}
+/*Bounding Box used for debugging purposes.*/
+#boundingBox{
+    background: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
