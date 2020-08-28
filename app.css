@@ -81,27 +81,27 @@ input{
     background: rgb(244, 255, 149);
 }
 
-#square{
+.square{
     background:red;
     opacity:0.5;
 }
 
-#rectangle{
+.rectangle{
     background: lime;
     opacity:1.0;
 }
 
-#circle{
+.circle{
     background: purple;
     opacity:0.75;
 }
-#triangle{
+.triangle{
     width: 0;
     height: 0;
     opacity:0.60%;
 }
 /*Bounding Box used for debugging purposes.*/
-#boundingBox{
+.boundingBox{
     background: none;
     position: absolute;
     display: flex;
