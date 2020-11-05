@@ -7,6 +7,10 @@ class Shape {
     constructor(_width, _height = null) {
         this.width = _width;
         this.height = _height;
+        if(this.width > 600 || this.height > 600){
+            alert("Shape is to large for Canvas!");
+            return 1;
+        }
         this.div = document.createElement("div");
         //Generates Random Values for the absolute positioning of the shapes.
         this.randValGenerator = function(min, max) {
@@ -134,6 +138,7 @@ class Circle extends Shape{
         circle.style.height = `${this.width}px`;
         circle.style.borderRadius = `${50}%`;
         this.div.appendChild(circle);
+        console.log(this.div)
     }
 }
 

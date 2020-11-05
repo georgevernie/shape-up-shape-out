@@ -12,6 +12,11 @@ label {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
+
+.user-shape-input{
+    padding-left: 3rem;
+}
+
 input{
     margin-right: 1.0rem;
     margin-bottom: 1rem;
@@ -83,22 +88,18 @@ input{
 
 .square{
     background:red;
-    opacity:0.5;
 }
 
 .rectangle{
     background: lime;
-    opacity:1.0;
 }
 
 .circle{
     background: purple;
-    opacity:0.75;
 }
 .triangle{
     width: 0;
     height: 0;
-    opacity:0.60%;
 }
 /*Bounding Box used for debugging purposes.*/
 .boundingBox{
